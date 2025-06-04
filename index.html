@@ -14,7 +14,8 @@
     <!--Responsive navbar-->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
         <h1 class="text-2xl">GreenDen</h1>
-        <p class="lg:hidden sm:block">menu</p>
+        
+        <img src="./images/menu (1).png" class="lg:hidden sm:block w-6 cursor-pointer" id="menu">
         <ul class="gap-5 text-gray-600 hidden lg:flex ">
             <li>
                 <a class="hover:underline hover:text-black">Home</a>
@@ -27,6 +28,22 @@
             </li>
         </ul>
     </nav>
+
+    <!--Sidebar-->
+    <section id="sidebar" class="bg-green-200 w-1/2 h-screen z-20 fixed top-0 transition-all duration-1000" style="right: -50% ">
+        <h3 id="sidebar_close" class="absolute top-2 left-5 cursor-pointer hover:underline">X</h3>
+        <ul class=" mt-16 pl-5  text-gray-900 flex flex-col items-start gap-5">
+            <li>
+                <a class="hover:underline hover:text-black">Home</a>
+            </li>
+            <li>
+                <a href="./products.html" class="hover:underline hover:text-black ">Products</a>
+            </li>
+            <li>
+                <a href="./contact.html" class="hover:underline hover:text-black">Contact</a>
+            </li>
+        </ul>
+    </section>
     <!--content-->
     <section class="bg-green-100 p-5 flex justify-center items-center">
         <div>
@@ -121,21 +138,24 @@
     <section>
         <h1 class="text-4xl my-10 font-bold text-center">Customer Review</h1>
         <div class=>
-            <div class="bg-green-900 text-white border-yellow-300 border-2 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
+            <div
+                class="bg-green-900 text-white border-yellow-300 border-2 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ipsum natus aliquam impedit! Odit
                     amet dolorum minima debitis reiciendis, eum dolor! Earum debitis dicta quia deleniti ex commodi
                     aliquam eligendi!
                 </p>
                 <h3 class="text-yellow-500 font-bold">Genny Mathew</h3>
             </div>
-            <div class="bg-green-900 text-white border border-yellow-300 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
+            <div
+                class="bg-green-900 text-white border border-yellow-300 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ipsum natus aliquam impedit! Odit
                     amet dolorum minima debitis reiciendis, eum dolor! Earum debitis dicta quia deleniti ex commodi
                     aliquam eligendi!
                 </p>
                 <h3 class="text-yellow-500 font-bold">Jim</h3>
             </div>
-            <div class="bg-green-900 text-white border border-yellow-300 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
+            <div
+                class="bg-green-900 text-white border border-yellow-300 p-5 m-3 hover:shadow-2xl transform hover:-translate-y-2 duration-150 cursor-pointer">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ipsum natus aliquam impedit! Odit
                     amet dolorum minima debitis reiciendis, eum dolor! Earum debitis dicta quia deleniti ex commodi
                     aliquam eligendi!
@@ -157,8 +177,9 @@
         <h1 class="p-5 font-bold text-4xl">Greenden</h1>
         <p class="pl-5">A chunk of Lorem Earum debitis dicta quia deleniti ex commodi
             aliquam eligendi! </p>
-            <p class="pl-5">&copy Greenden</p>
+        <p class="pl-5">&copy Greenden</p>
     </section>
+    <script src="./script.js"></script>
 
 </body>
 
